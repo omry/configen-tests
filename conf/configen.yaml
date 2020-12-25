@@ -17,6 +17,7 @@ configen:
       # for each module, a list of classes
       classes:
         - ConfigenTest
+        - ConfigenTest2
         - Dataset
         - IterableDataset
         - TensorDataset 

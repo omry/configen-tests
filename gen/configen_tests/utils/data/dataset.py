@@ -19,6 +19,11 @@ class ConfigenTestConf:
 
 
 @dataclass
+class ConfigenTest2Conf:
+    _target_: str = "configen_tests.utils.data.dataset.ConfigenTest2"
+
+
+@dataclass
 class DatasetConf:
     _target_: str = "configen_tests.utils.data.dataset.Dataset"
     args: Any = MISSING

@@ -19,6 +19,11 @@ class ConfigenTest(object):
                  *c: Tuple[int]) -> None:
         pass
 
+class ConfigenTest2(object):
+    
+    def __getitem__(self,index) -> T_co:
+        pass
+
 class Dataset(Generic[T_co]):
 
     def __getitem__(self, index) -> T_co:
