@@ -6,6 +6,6 @@ setup(
     author='Author Name',
     author_email='author@gmail.com',
     description='Description of my package',
-    packages=find_packages("configen*", "gen"),    
+    packages=find_packages(),    
     install_requires=[],
 )
